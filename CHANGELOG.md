@@ -1,5 +1,10 @@
 # Changelog
 
+## \[0.37.0]
+
+- [`e50ce47`](https://github.com/tauri-apps/wry/commit/e50ce47ea302d3cbb6311baad3324cc2ceaaed89)([#1166](https://github.com/tauri-apps/wry/pull/1166)) Added `WebViewExtMacOS::reparent`,`WebViewExtWindows::reparent` and `WebViewExtUnix::reparent`.
+- [`e50ce47`](https://github.com/tauri-apps/wry/commit/e50ce47ea302d3cbb6311baad3324cc2ceaaed89)([#1166](https://github.com/tauri-apps/wry/pull/1166)) Revert global keys shortcuts (wry#1156)
+
 ## \[0.36.0]
 
 - [`8646120`](https://github.com/tauri-apps/wry/commit/8646120339b8ed983582caa9e668fc286dc59cb3)([#1159](https://github.com/tauri-apps/wry/pull/1159)) On android, fix `no non-static method ".evalScript(ILjava/lang/String;)"` when calling `Window::eval`.
